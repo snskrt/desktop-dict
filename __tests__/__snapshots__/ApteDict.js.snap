@@ -1,0 +1,30 @@
+exports[`test finds a word by key 1`] = `
+Object {
+  "encoding": "slp1",
+  "results": Array [
+    Object {
+      "data": "<H1><h><key1>Sap</key1><key2>Sap</key2></h><body>A technical term used by [Page1032-b+ 57] <lb/>Pāṇini for the conjugational sign <lb/><s>a</s> inserted between the root and <lb/>the terminations of the conjuga- <lb/>tional tenses in the first class of <lb/>roots.</body><tail><L>27602</L><pc>1032-a</pc></tail></H1>",
+      "key": "Sap",
+      "lnum": 27602,
+    },
+    Object {
+      "data": "<H1><h><key1>Sap</key1><key2>Sap</key2></h><body><i>ind.</i> A particle and prefix <lb/>implying assent or compliance.</body><tail><L>27603</L><pc>1032-b</pc></tail></H1>",
+      "key": "Sap",
+      "lnum": 27603,
+    },
+    Object {
+      "data": "<H1><h><key1>Sap</key1><key2>Sap</key2></h><body>1. 4. U. (<s>Sapati-te, Sapyati-te, Sapta</s>) <lb/><b>1</b> To curse, execrate; <s>aSapadBava mAnu-</s> <lb/><s>zIti tAM</s> R. 8. 80; <s>so\'BUtparAsuraTa BUmi-</s> <lb/><s>patiM SaSApa (vfdDaH)</s> 9. 78, 1. 77. --2 To <lb/>swear, take an oath, promise by <lb/>oath, say on oath, (usually with <lb/>dat. of the person to whom a pro- <lb/>mise &amp;c. is made and instr. of the <lb/>object by which it is made); <s>Barate-</s> <lb/><s>nAtpanA cAhaM Sape te manujADipa . yaTA nA-</s> <lb/><s>nyena tuzyeyamfte rAmavivAsanAt</s> Rām; <lb/>when used without an object it <lb/>generally governs the instr. of the <lb/>thing and dat. of the person by <lb/>which or whom the oath is taken; <lb/><s>satyaM SapAmi ne pAdapaMkajasparSena</s> K.; <lb/>Ghaṭ. 22; <s>aSapta nihnuvAnA\'sO sItAyE</s> <lb/><s>smaramohitaH</s> Bk. 8. 74; <s>prema jijYAsamA-</s> <lb/><s>nAbyastAbyo\'Sapsata kAminaH</s> 8. 33; some- <lb/>times <s>Sap</s> governs a cognate accusa- <lb/>tive <s>sahatraSo\'sO SapaTAnaSapyat</s> Bk. 3. <lb/>32. <b>--3</b> To blame, scold, revile, abuse <lb/>(with dat or by itself); <s>dvizadByaScA-</s> <lb/><s>SapastayA</s> Bk. 17. 4. <s>prativAcamadatta ke-</s> <lb/><s>SavaH SapamAnAya na cediBUBuje</s> Śi. 16 <lb/>25. <i>--Caus.</i> (<s>SApayati-te</s>) To bind by <lb/>an oath, conjure; <s>SApito\'si gobrAhma-</s> <lb/><s>RakAmyayA</s> Mk. 3; <s>SApitAsi mama lavaMgi-</s> <lb/><s>kAvalokitayoSva jIvitena yadi vAcA na</s> <lb/><s>kaTayasi</s> Māl. 8.</body><tail><L>27604</L><pc>1032-b</pc></tail></H1>",
+      "key": "Sap",
+      "lnum": 27604,
+    },
+  ],
+}
+`;
+
+exports[`test finds a word by line number 1`] = `
+Object {
+  "data": "<H1><h n=\"alt\"><key1>atIsArin</key1><key2>ati(tI)sArin</key2></h><body ref=\"717\"></body><tail><L>717.01</L><pc>0036-a</pc></tail></H1>",
+  "key": "atIsArin",
+  "lnum": 717.01,
+}
+`;

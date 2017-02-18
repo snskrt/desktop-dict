@@ -1,0 +1,54 @@
+exports[`test does not render if key not changed 1`] = `null`;
+
+exports[`test does not render if key not changed 2`] = `
+<h2
+  className="result-head">
+  <span
+    className="hom">
+    1
+    . 
+  </span>
+  <span>
+    <span
+      className="snskrt">
+      <span>
+        <span>
+          ṛoo
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test processes key text 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span
+      className="snskrt">
+      <span>
+        <span>
+          akalkana  – ka
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders sanskrit key text 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span
+      className="snskrt">
+      <span>
+        <span>
+          aṃṣīkṇ
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;

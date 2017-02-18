@@ -1,0 +1,39 @@
+exports[`test renders westergaard links 1`] = `
+<div
+  className="links">
+  <div>
+    Westergaard Dhatupatha: 
+    <a
+      href="http://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/Westergaard/disp/index.php?section=28"
+      target="_blank">
+      28.65
+    </a>
+    , 
+    <a
+      href="http://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/Westergaard/disp/index.php?section=29"
+      target="_blank">
+      29.20
+    </a>
+  </div>
+</div>
+`;
+
+exports[`test renders whitney roots links 1`] = `
+<div
+  className="links">
+  <div>
+    Whitney Roots: 
+    <a
+      href="http://www.sanskrit-lexicon.uni-koeln.de/scans/KALEScan/WRScan/disp2/index.php?page=1"
+      target="_blank">
+      añj
+    </a>
+    , 
+    <a
+      href="http://www.sanskrit-lexicon.uni-koeln.de/scans/KALEScan/WRScan/disp2/index.php?page=21"
+      target="_blank">
+      kṛ1
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,199 @@
+@font-face {
+    src: url(./fonts/siddhanta.ttf);
+    font-family: 'siddhanta_deva';
+}
+
+@font-face {
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-family: 'robotoregular';
+}
+
+@font-face {
+    src: url(./fonts/Roboto-Bold.ttf);
+    font-family: 'robotobold';
+}
+
+html {
+    font-family: 'robotoregular', sans-serif;
+}
+
+body {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.result-title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'robotobold', sans-serif;
+    line-height: 44px;
+    word-break: break-all;
+}
+
+.result-line {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    position: relative;
+}
+
+.result-line strong {
+    font-family: 'robotobold', sans-serif;
+}
+
+.result-line:before {
+    color: #E0E0E0;
+    content: '•';
+    position: absolute;
+    left: -15px;
+}
+
+.result-head {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.result-head .snskrt {
+    color: #F50057;
+}
+
+.result-line .snskrt {
+    color: #006064;
+}
+
+.shung {
+    color: #F50057;
+}
+
+.result-container {
+    margin: 0 50px 50px 50px;
+}
+
+.root {
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #EEE;
+}
+
+.lex {
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #EEE;
+}
+
+.srs {
+    position:relative;
+}
+
+.srs:before {
+    content: "^";
+    position: absolute;
+    top: -11px;
+    left: -7px;
+    font-weight: normal;
+}
+
+.abbr {
+    border-bottom: 1px solid #E0E0E0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.abbr:hover {
+    border-bottom: 1px solid #F50057;
+    color: #F50057;
+}
+
+.lit-source {
+    color: #9E9E9E;
+}
+
+.greek-link {
+    text-decoration: none;
+    color: #212121;
+    border-bottom: 1px solid #212121;
+}
+
+.greek-link:hover {
+    border-bottom: 1px solid #F50057;
+    color: #F50057;
+}
+
+.superscript {
+    position: absolute;
+    top: -13px;
+    left: -7px;
+}
+
+.superscript-container {
+    position: relative;
+}
+
+.pcol {
+    text-decoration: none;
+    color: #212121;
+    border-bottom: 1px solid #212121;
+}
+
+.pcol:hover {
+    border-bottom: 1px solid #F50057;
+    color: #F50057;
+}
+
+.half-visarga {
+    font-family: siddhanta_deva, serif;
+}
+
+.apte {
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menu {
+    margin: 30px;
+}
+
+.about {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.about, .about a {
+    color: #9E9E9E;
+}
+
+.about a:hover {
+    color: #F50057;
+}
+
+.result-head .hom {
+    font-weight: bold;
+    font-family: 'robotobold', sans-serif;
+}
+
+.links {
+    background-color: #F5F5F5;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.links-label {
+    font-family: 'robotobold', sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    color: #212121;
+    border-bottom: 1px solid #212121;
+}
+
+.links a:hover {
+    border-bottom: 1px solid #F50057;
+    color: #F50057;
+}

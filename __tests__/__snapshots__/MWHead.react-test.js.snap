@@ -1,0 +1,337 @@
+exports[`test does not render if key not changed 1`] = `null`;
+
+exports[`test does not render if key not changed 2`] = `null`;
+
+exports[`test does not render if key not changed 3`] = `
+<h2
+  className="result-head">
+  <span
+    className="hom">
+    1
+    . 
+  </span>
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              ṛoo
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test processes key text 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              aṃṣ īkṇ
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test processes key text 2`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              a – kāra
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test processes key text 3`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              aṃsa – tra – kośa
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test processes key text 4`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              ato – \'nya
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test removes accents 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+               a b c 
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders chandra bindu 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              sāristhā – khā
+            </span>
+            <span>
+              n̐
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders hom number 1`] = `
+<h2
+  className="result-head">
+  <span
+    className="hom">
+    1
+    . 
+  </span>
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              a
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders partial word mark 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              gāṅga
+            </span>
+          </span>
+          <span
+            className="sr">
+            ° 
+          </span>
+          <span>
+            <span>
+              ṭaka
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders partial word mark 2`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              gāṅga
+            </span>
+          </span>
+          <span
+            className="sr">
+            ° 
+          </span>
+          <span>
+            <span>
+              ṭaka
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders root element 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              aṃśī – 
+            </span>
+          </span>
+          <span
+            className="root">
+            √
+            <span>
+              <span>
+                kṛ
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders sanskrit key text 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              aṃṣīkṇ
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders single replacement sandhi 1`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              aṃśā
+            </span>
+          </span>
+          <span
+            className="srs" />
+          <span>
+            <span>
+              ṃśa
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;
+
+exports[`test renders single replacement sandhi 2`] = `
+<h2
+  className="result-head">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              agau
+            </span>
+          </span>
+          <span
+            className="srs" />
+          <span>
+            <span>
+              kas
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</h2>
+`;

@@ -1,0 +1,59 @@
+{
+  "name": "snskrt-desktop-dict",
+  "productName": "SNSKRT",
+  "description": "Desktop Sanskrit-English Dictionary",
+  "author": {
+    "name": "Dan Kocherga",
+    "email": "dan.kocherga@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:snskrt/desktop-dict.git"
+  },
+  "version": "1.0.0",
+  "main": "bootstrap.js",
+  "license": "(CC-BY-NC-SA-3.0 OR MIT)",
+  "scripts": {
+    "start": "electron .",
+    "build-assets": "webpack --config webpack.config.js --progress --colors",
+    "pack": "build --dir",
+    "dist": "build",
+    "test": "jest",
+    "mw-db": "util/mw_db/fill_db.sh",
+    "apte-db": "util/apte_db/fill_db.sh"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "html-webpack-plugin": "^2.7.2",
+    "jest": "^18.0.0",
+    "object-assign": "^4.1.0",
+    "react-hot-loader": "^1.3.1",
+    "react-test-renderer": "^15.4.1",
+    "transfer-webpack-plugin": "^0.1.4",
+    "webpack": "^1.12.9",
+    "fbjs": "^0.8.8",
+    "xml-parse-from-string": "^1.0.0",
+    "chai": "^3.5.0",
+    "electron": "1.4.5"
+  },
+  "dependencies": {
+    "material-ui": "^0.16.6",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.0",
+    "sanscript.js": "git+https://github.com/snskrt/sanscript.js.git",
+    "sql.js": "0.3.2"
+  },
+  "build": {
+    "appId": "com.snskrt.dict",
+    "mac": {
+      "category": "public.app-category.education"
+    }
+  },
+  "postinstall": "install-app-deps"
+}

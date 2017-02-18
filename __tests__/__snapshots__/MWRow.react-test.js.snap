@@ -1,0 +1,1301 @@
+exports[`test converts N. to abbreviation 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          some
+        </span>
+        <span>
+          <a
+            className="abbr"
+            onClick={[Function]}>
+            N.
+          </a>
+        </span>
+        <span>
+           of the men
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test converts N. to abbreviation 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          lit source 
+        </span>
+      </span>
+      <span
+        className="lit-source">
+        <span>
+          <a
+            className="abbr"
+            onClick={[Function]}>
+            <span>
+              <span>
+                <span>
+                  N.
+                </span>
+              </span>
+            </span>
+          </a>
+        </span>
+      </span>
+      <span>
+        <span>
+           not replaced
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test converts N. to abbreviation 3`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          part of the wordN. is not preplaced
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test converts N. to abbreviation 4`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          number 19N. is not replaced
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test converts N. to abbreviation 5`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          <a
+            className="abbr"
+            onClick={[Function]}>
+            N.
+          </a>
+        </span>
+        <span>
+           inside tag
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test converts atmanepada A1 sign 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span
+          className="lex"
+          textProcessors={
+            Array [
+              [Function],
+            ]
+          }>
+          <span>
+            <span>
+              Ā.
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test converts atmanepada A1 sign 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span
+          className="lex"
+          textProcessors={
+            Array [
+              [Function],
+            ]
+          }>
+          <span>
+            <span>
+              Ā.
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test converts atmanepada A1 sign 3`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span
+          className="lex"
+          textProcessors={
+            Array [
+              [Function],
+            ]
+          }>
+          <span>
+            <span>
+              Ā. etc
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test converts atmanepada A1 sign 4`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          A1
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test removes accents 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+           a/ b^ c\\ 
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test removes accents 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              a b c
+            </span>
+          </span>
+        </span>
+      </span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test removes accents 3`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+      <span>
+        <span>
+          a/ b^ c\\
+        </span>
+      </span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test removes extra comma spaces 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo bar, baz, xxx
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders abbreviations 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <a
+          className="abbr"
+          onClick={[Function]}>
+          <span>
+            <span>
+              foo.
+            </span>
+          </span>
+        </a>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders alternatives separator 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+      <span>
+        /
+      </span>
+      <span>
+        <span>
+          bar
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders amp element 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        &
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders botanics elements 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          Barringtonia
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders botanics elements 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          Canopus
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders brackets 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        [
+        <span>
+          <span>
+            see
+          </span>
+        </span>
+        ]
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders brackets 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        [
+        <span>
+          <span>
+            see
+          </span>
+        </span>
+        ]
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders cf. abbreviation 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <a
+          className="abbr"
+          onClick={[Function]}>
+          cf.
+        </a>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders equality symbol 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        =
+      </span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              padmaka
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders etc symbol 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        &c
+      </span>
+      <span>
+        &c
+      </span>
+      <span>
+        &c
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders etymology element 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          Goth 
+        </span>
+      </span>
+      <span>
+        <span>
+          amsa
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders experimental elements 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders experimental elements 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders experimental elements 3`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders experimental elements 4`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders greek text 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <a
+        className="greek-link"
+        href="http://www.perseus.tufts.edu/hopper/morph?la=greek&l=f_url"
+        target="_blank">
+        foo
+      </a>
+      <span>
+        <span>
+          , 
+        </span>
+      </span>
+      <a
+        className="greek-link"
+        href="http://www.perseus.tufts.edu/hopper/morph?la=greek&l=b_url"
+        target="_blank">
+        bar
+      </a>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders half-visarga sign 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span
+          className="half-visarga">
+           ᳲ 
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders hom element 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          <span>
+            1
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders indological words 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              śiva
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders indological words 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              śruti
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders lexical info 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+      <span>
+        <span
+          className="lex"
+          textProcessors={
+            Array [
+              [Function],
+            ]
+          }>
+          <span>
+            <span>
+              m.
+            </span>
+          </span>
+        </span>
+      </span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+      <span>
+        <span>
+          the letter or sound
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders lexical info 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+      <span>
+        <span
+          className="lex"
+          textProcessors={
+            Array [
+              [Function],
+            ]
+          }>
+          <span>
+            <span>
+              m.
+            </span>
+          </span>
+        </span>
+      </span>
+      <span>
+        <span>
+           
+        </span>
+      </span>
+      <span>
+        <span>
+          the letter or sound
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders lexical info 3`] = `
+<div
+  className="result-line">
+  <span>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`test renders lexical info 4`] = `
+<div
+  className="result-line">
+  <span>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`test renders lit source 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="lit-source">
+        <span>
+          <a
+            className="abbr"
+            onClick={[Function]}>
+            <span>
+              <span>
+                <span>
+                  Suṡr. 1-2, 3
+                </span>
+              </span>
+            </span>
+          </a>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders page column link 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <a
+        className="pcol"
+        href="http://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/index.php?sfx=jpg"
+        target="_blank">
+        p. 
+        14
+        , col. 
+        2
+      </a>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders page column link 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <a
+        className="pcol"
+        href="http://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/index.php?sfx=jpg"
+        target="_blank">
+        p. 
+        14
+        , col. 
+        2
+      </a>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders parenthesis 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        (
+        <span
+          className="snskrt">
+          <span>
+            <span>
+              <span>
+                pragṛhya
+              </span>
+            </span>
+          </span>
+        </span>
+        )
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders parenthesis 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span
+          className="lex"
+          textProcessors={
+            Array [
+              [Function],
+            ]
+          }>
+          <span>
+            <span>
+              mf
+            </span>
+          </span>
+          <span>
+            (
+            <span
+              className="snskrt">
+              <span>
+                <span>
+                  <span>
+                    ā
+                  </span>
+                </span>
+              </span>
+            </span>
+            )
+          </span>
+          <span>
+            <span>
+              n.
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders parenthetical headword 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders partial word mark 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          gANga
+        </span>
+      </span>
+      <span
+        className="sr">
+        ° 
+      </span>
+      <span>
+        <span>
+          waka
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders partial word mark 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          gANga
+        </span>
+      </span>
+      <span
+        className="sr">
+        ° 
+      </span>
+      <span>
+        <span>
+          waka
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders q.v. abbreviation 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <a
+          className="abbr"
+          onClick={[Function]}>
+          q.v.
+        </a>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders quote element 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span
+          textProcessors={
+            Array [
+              [Function],
+            ]
+          }>
+          «
+          <span>
+            <span>
+              coloured or modified by nasalization
+            </span>
+          </span>
+          »
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders root element 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              -ā-
+            </span>
+          </span>
+          <span
+            className="root">
+            √
+            <span>
+              <span>
+                i
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders sanskrit text 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              tasyākaraṇir evāstu
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders see element 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        see 
+      </span>
+      <span>
+        <span>
+           next col
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders sense separator 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+      <span>
+        <br />
+        <span
+          className="result-line" />
+      </span>
+      <span>
+        <span>
+          bar
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders short/long symbol 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+      <span
+        className="superscript-container">
+        <span
+          className="superscript">
+          ◡
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders short/long symbol 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+      <span
+        className="superscript-container">
+        <span
+          className="superscript">
+          ◡
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders single replacement sandhi 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              bhastrā
+            </span>
+          </span>
+          <span
+            className="srs" />
+          <span>
+            <span>
+              di
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders single replacement sandhi 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            <span>
+              -pary-ai
+            </span>
+          </span>
+          <span
+            className="srs" />
+          <span>
+            <span>
+              ti
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders superscript circle 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          foo
+        </span>
+      </span>
+      <span
+        className="superscript-container">
+        <span
+          className="superscript">
+          ○
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders text blocks 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+            
+        </span>
+      </span>
+      <span>
+        <span>
+          the 
+        </span>
+      </span>
+      <span>
+        <span>
+          first
+        </span>
+      </span>
+      <span>
+        <span>
+           letter
+        </span>
+      </span>
+      <span>
+        <span>
+           of the
+        </span>
+      </span>
+      <span>
+        <span>
+           alphabet
+        </span>
+      </span>
+      <span>
+        <span>
+            
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders umlaut symbols 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        ä
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders umlaut symbols 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        ö
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders umlaut symbols 3`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        é
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders umlaut symbols 4`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        ü
+      </span>
+    </span>
+  </span>
+</div>
+`;

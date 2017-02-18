@@ -1,0 +1,208 @@
+exports[`test processes body text 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        akalkana  – ka
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test processes body text 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        foo
+      </span>
+      <span
+        textProcessors={
+          Array [
+            [Function],
+          ]
+        } />
+      <span>
+        bar
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test processes body text 3`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        foo
+      </span>
+      <span
+        textProcessors={
+          Array [
+            [Function],
+          ]
+        } />
+      <span>
+        bar
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test processes body text 4`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        foo  Bar [Baz] 
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders alternative body 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        <span>
+          <span>
+            alternative body
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders bold text 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <strong
+        textProcessors={
+          Array [
+            [Function],
+          ]
+        }>
+        <span>
+          bold
+        </span>
+      </strong>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders bold text 2`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <strong
+        textProcessors={
+          Array [
+            [Function],
+          ]
+        }>
+        <span
+          className="snskrt">
+          <span>
+            <span>
+              tasyākaraṇir evāstu
+            </span>
+          </span>
+        </span>
+      </strong>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders bold text 3`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <strong
+            textProcessors={
+              Array [
+                [Function],
+                [Function],
+              ]
+            }>
+            <span>
+              tasyākaraṇir evāstu
+            </span>
+          </strong>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders italic text 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <i
+        textProcessors={
+          Array [
+            [Function],
+          ]
+        }>
+        <span>
+          italic
+        </span>
+      </i>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders sanskrit text 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span
+        className="snskrt">
+        <span>
+          <span>
+            tasyākaraṇir evāstu
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`test renders text blocks 1`] = `
+<div
+  className="result-line">
+  <span>
+    <span>
+      <span>
+        foo bar baz
+      </span>
+    </span>
+  </span>
+</div>
+`;
