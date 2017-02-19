@@ -55,6 +55,9 @@
     "appId": "com.snskrt.dict",
     "mac": {
       "category": "public.app-category.education"
+    },
+    "dmg": {
+      "title": "${productName}"
     }
   },
   "postinstall": "install-app-deps"
