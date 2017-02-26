@@ -58,7 +58,8 @@
     },
     "dmg": {
       "title": "${productName}"
-    }
+    },
+    "artifactName": "snskrt.${ext}"
   },
   "postinstall": "install-app-deps"
 }
