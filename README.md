@@ -2,7 +2,7 @@
 
 Monier Williams and Apte Sanskrit-English dictionaries desktop app.
 
-Windows, Mac, Linux distributions available.
+Windows and Mac distributions available.
 
 # Running from source
 
