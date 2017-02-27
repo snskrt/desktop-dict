@@ -59,7 +59,10 @@
     "dmg": {
       "title": "${productName}"
     },
-    "artifactName": "snskrt.${ext}"
+    "artifactName": "snskrt.${ext}",
+    "nsis": {
+      "artifactName":"snskrt.${ext}"
+    }
   },
   "postinstall": "install-app-deps"
 }
