@@ -34,6 +34,7 @@
     "xml-parse-from-string": "^1.0.0",
     "chai": "^3.5.0",
     "electron": "1.4.5",
+    "electron-updater": "^1.8.1",
     "fbjs": "^0.8.8",
     "electron-builder": "next",
     "babel-jest": "^18.0.0"

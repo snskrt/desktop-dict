@@ -2,6 +2,7 @@
 
 import electron from 'electron';
 import api from './main_process/Api'
+import { autoUpdater } from "electron-updater"
 
 const app = electron.app;
 const browserWindow = electron.BrowserWindow;
@@ -19,6 +20,10 @@ function createWindow() {
     });
 
     menu.setApplicationMenu(menu.buildFromTemplate(createMenu()));
+}
+
+function sendStatusToWindow(text) {
+    win.webContents.send('message', text);
 }
 
 function createMenu() {
@@ -54,4 +59,24 @@ app.on('activate', function () {
     if (win === null) {
         createWindow()
     }
+});
+
+autoUpdater.on('checking-for-update', () => {
+    sendStatusToWindow('Checking for update...');
+});
+autoUpdater.on('update-available', () => {
+    sendStatusToWindow('Update available.');
+});
+autoUpdater.on('download-progress', () => {
+    sendStatusToWindow('Download update...');
+});
+autoUpdater.on('update-downloaded', () => {
+    sendStatusToWindow('Update downloaded; will install in 5 seconds');
+    setTimeout(function() {
+        autoUpdater.quitAndInstall();
+    }, 5000)
+});
+
+app.on('ready', function()  {
+    autoUpdater.checkForUpdates();
 });
