@@ -23,5 +23,6 @@ script:
 - yarn run dist
 
 branches:
-  except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
+  only:
+    - master
+    - /^dev-.*$/

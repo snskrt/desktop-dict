@@ -21,3 +21,8 @@ build_script:
   - yarn run dist
 
 test: off
+
+branches:
+  only:
+    - master
+    - /^dev-.*$/
