@@ -4,6 +4,9 @@ Monier Williams and Apte Sanskrit-English dictionaries desktop app.
 
 Windows and Mac distributions available.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/svj684y02yk2pa0a?svg=true)](https://ci.appveyor.com/project/dankocherga/desktop-dict)
+[![Build Status](https://travis-ci.org/snskrt/desktop-dict.svg?branch=master)](https://travis-ci.org/snskrt/desktop-dict)
+
 # Running from source
 
 **Install libraries**
