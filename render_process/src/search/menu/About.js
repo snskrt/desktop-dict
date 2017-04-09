@@ -8,7 +8,7 @@ const About = React.createClass({
             <p>
                 Hosted with &#10084; on <a href="https://github.com/snskrt/desktop-dict" target="_blank">GitHub</a>.
                 <br/>
-                Post there any issues or email Daniel at <a href="mailto:dan.kocherga@gmail.com">dan.kocherga@gmail.com</a>
+                Post there any issues or email Daniel at <a href="mailto:mail@snskrt.xyz">mail@snskrt.xyz</a>
             </p>
         </div>
     }
