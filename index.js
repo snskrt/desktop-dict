@@ -2,7 +2,12 @@
 
 import electron from 'electron';
 import api from './main_process/Api'
-import { autoUpdater } from "electron-updater"
+import { autoUpdater } from 'electron-updater'
+import log from 'electron-log'
+
+autoUpdater.logger = log;
+autoUpdater.logger.transports.file.level = 'info';
+log.info('Starting SNSKRT DICT');
 
 const app = electron.app;
 const browserWindow = electron.BrowserWindow;

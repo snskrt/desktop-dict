@@ -50,6 +50,7 @@ $ npm run apte-db path/to/ap90.xml
 ```
 3. Commit new database file: `main_process/dict/apte/db/ap90.sqlite`
 
+
 # Credits
 
 Based on [Cologne Digital Sanskrit Dictionaries](http://www.sanskrit-lexicon.uni-koeln.de).
