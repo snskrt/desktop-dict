@@ -27,7 +27,8 @@ function createWindow() {
     menu.setApplicationMenu(menu.buildFromTemplate(createMenu()));
 }
 
-function sendStatusToWindow(text) {
+function changeStatus(text) {
+    log.info(text);
     win.webContents.send('message', text);
 }
 
@@ -67,16 +68,16 @@ app.on('activate', function () {
 });
 
 autoUpdater.on('checking-for-update', () => {
-    sendStatusToWindow('Checking for update...');
+    changeStatus('Checking for update...');
 });
 autoUpdater.on('update-available', () => {
-    sendStatusToWindow('Update available.');
+    changeStatus('Update available.');
 });
 autoUpdater.on('download-progress', () => {
-    sendStatusToWindow('Download update...');
+    changeStatus('Download update...');
 });
 autoUpdater.on('update-downloaded', () => {
-    sendStatusToWindow('Update downloaded; will install in 5 seconds');
+    changeStatus('Update downloaded; will install in 5 seconds');
     setTimeout(function() {
         autoUpdater.quitAndInstall();
     }, 5000)
