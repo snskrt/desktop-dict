@@ -33,24 +33,25 @@ function changeStatus(text) {
 }
 
 function createMenu() {
-    return [
-        {
-            label: "Application",
-            submenu: [
-                { label: 'About Application', selector: 'orderFrontStandardAboutPanel:' },
-                { type: 'separator' },
-                { label: 'Quit', accelerator: 'Command+Q', click: function() { app.quit(); }}
-            ]
-        },
-        {
-            label: 'Edit',
-            submenu: [
-                { label: 'Copy', accelerator: 'CmdOrCtrl+C', selector: 'copy:' },
-                { label: "Paste", accelerator: "CmdOrCtrl+V", selector: "paste:" },
-                { label: "Select All", accelerator: "CmdOrCtrl+A", selector: "selectAll:" }
-            ]
-        }
-    ];
+    const editMenu = {
+        label: 'Edit',
+        submenu: [
+            { label: 'Copy', accelerator: 'CmdOrCtrl+C', selector: 'copy:' },
+            { label: 'Paste', accelerator: 'CmdOrCtrl+V', selector: 'paste:' },
+            { label: 'Select All', accelerator: 'CmdOrCtrl+A', selector: 'selectAll:' }
+        ]
+    };
+    const appMenu = {
+        label: 'Application',
+        submenu: [ ]
+    };
+
+    if (process.platform === 'darwin') {
+        appMenu.submenu.push({ label: 'About Application', selector: 'orderFrontStandardAboutPanel:' });
+    }
+    appMenu.submenu.push({ type: 'separator' });
+    appMenu.submenu.push({ label: 'Quit', accelerator: 'Command+Q', click: function() { app.quit(); } });
+    return [ appMenu, editMenu ];
 }
 
 app.on('ready', createWindow);
