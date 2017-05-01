@@ -48,8 +48,8 @@ function createMenu() {
 
     if (process.platform === 'darwin') {
         appMenu.submenu.push({ label: 'About Application', selector: 'orderFrontStandardAboutPanel:' });
+        appMenu.submenu.push({ type: 'separator' });
     }
-    appMenu.submenu.push({ type: 'separator' });
     appMenu.submenu.push({ label: 'Quit', accelerator: 'Command+Q', click: function() { app.quit(); } });
     return [ appMenu, editMenu ];
 }
