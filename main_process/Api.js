@@ -23,6 +23,10 @@ class Api {
             event.returnValue = Api.findWord(request);
         });
 
+        ipc.on(Api.VERSION, function (event) {
+            event.returnValue = process.env.npm_package_version;
+        });
+
         mwApi.getMethods().map((method) => {
             ipc.on(method.code, function(event, request) {
                 event.returnValue = method.callback(request);
@@ -38,5 +42,6 @@ class Api {
 }
 
 Api.SEARCH = 'search';
+Api.VERSION = 'version';
 
 export default Api;

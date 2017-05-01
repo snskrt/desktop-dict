@@ -14,6 +14,11 @@ const MainLayout = React.createClass({
             request: new SearchRequest('', new Settings())
         };
     },
+
+    getVersion: function() {
+        return this.props.api.call('version');
+    },
+
     handleQuery: function(query) {
         const searchRequest = new SearchRequest(query, this.state.settings);
         const searchResults = this.props.api.call('search', searchRequest);
@@ -43,6 +48,7 @@ const MainLayout = React.createClass({
                 onQuery={this.handleQuery}
                 onSettingsChange={this.handleSettingsChange}
                 settings={this.state.settings}
+                version={this.getVersion()}
                 request={this.state.request}
             />
             <ResultList

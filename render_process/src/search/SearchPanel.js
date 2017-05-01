@@ -12,6 +12,7 @@ const SearchPanel = React.createClass({
         const menu = <Menu
             onSettingsChange={this.props.onSettingsChange}
             settings={this.props.settings}
+            version={this.props.version}
         />;
 
         return (

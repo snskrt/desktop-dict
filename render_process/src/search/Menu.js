@@ -27,7 +27,7 @@ const Menu = React.createClass({
                 <div className="menu">
                     <Input settings={this.props.settings} onChange={this.props.onSettingsChange}/>
                     <Output settings={this.props.settings} onChange={this.props.onSettingsChange}/>
-                    <About/>
+                    <About version={this.props.version}/>
                 </div>
             </Drawer>
         </span>
