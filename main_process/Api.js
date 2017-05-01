@@ -4,6 +4,7 @@ import MW from './dicts/mw/MonierWilliams';
 import Apte from './dicts/apte/Apte';
 import MWApi from './dicts/mw/Api';
 import ApteApi from './dicts/apte/Api';
+import {app} from 'electron';
 
 const mwDict = new MW();
 const apteDict = new Apte();
@@ -24,7 +25,7 @@ class Api {
         });
 
         ipc.on(Api.VERSION, function (event) {
-            event.returnValue = process.env.npm_package_version;
+            event.returnValue = app.getVersion();
         });
 
         mwApi.getMethods().map((method) => {
