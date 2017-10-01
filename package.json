@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git@github.com:snskrt/desktop-dict.git"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "bootstrap.js",
   "license": "(CC-BY-NC-SA-3.0 OR MIT)",
   "scripts": {
