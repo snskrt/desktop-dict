@@ -22,6 +22,7 @@ const MainLayout = React.createClass({
     handleQuery: function(query) {
         const searchRequest = new SearchRequest(query, this.state.settings);
         const searchResults = this.props.api.call('search', searchRequest);
+        this.trackQuery(query);
 
         this.setState({
             request: searchRequest,
@@ -55,9 +56,14 @@ const MainLayout = React.createClass({
                 request={this.state.request}
                 results={this.state.results}
                 api={this.props.api}
+                analytics={this.props.analytics}
             />
         </div>
-    }
+    },
+
+    trackQuery: function (query) {
+        this.props.analytics.event('Search', 'query', query);
+    },
 });
 
 export default MainLayout;

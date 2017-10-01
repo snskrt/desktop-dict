@@ -13,6 +13,7 @@ import ApteBody from './apte/RowBody';
 
 const ResultList = React.createClass({
     render: function () {
+        this.trackView();
         return <div>
             {this.getSwitcher()}
         </div>;
@@ -58,6 +59,11 @@ const ResultList = React.createClass({
             'background-color': cyan600
         };
         return <Tabs tabItemContainerStyle={styles}>{tabs}</Tabs>;
+    },
+
+    trackView: function () {
+        const screen = this.props.request.query ? 'Result List' : 'Prompt';
+        this.props.analytics.screen(screen);
     }
 });
 export default ResultList;
