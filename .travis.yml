@@ -14,7 +14,7 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 
 install:
-- nvm install 7
+- nvm install 8
 - yarn add electron-builder@next --dev # force install next version to test electron-builder
 - yarn install
 
