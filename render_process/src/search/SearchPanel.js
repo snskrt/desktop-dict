@@ -15,10 +15,15 @@ const SearchPanel = React.createClass({
             version={this.props.version}
         />;
 
+        const search = <SearchField
+            onQuery={this.props.onQuery}
+            onChange={this.searchChange}
+            settings={this.props.settings}
+        />;
         return (
             <AppBar
                 zDepth={1}
-                title={<SearchField onQuery={this.props.onQuery} onChange={this.searchChange}/>}
+                title={search}
                 iconElementLeft={<IconButton onTouchTap={this.search}><SearchIcon/></IconButton>}
                 iconElementRight={menu}
             >

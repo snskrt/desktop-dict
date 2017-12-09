@@ -25,6 +25,14 @@ class Transcoder
             Sanscript.addRomanScheme(Transcoder.AS_ROMAN, AsEncoding.as_roman);
         }
     }
+
+    static schemeLabel(scheme) {
+        switch (scheme) {
+            case Transcoder.HK: return 'Harvard-Kyoto';
+            case Transcoder.SLP1: return 'SLP1';
+            case Transcoder.ITRANS: return 'ITRANS';
+        }
+    }
 }
 
 Transcoder.setupSchemes();

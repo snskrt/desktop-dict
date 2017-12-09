@@ -4,6 +4,7 @@ import React from 'react';
 import TextField from 'material-ui/TextField';
 import {white} from 'material-ui/styles/colors';
 import {cyan100} from 'material-ui/styles/colors';
+import Transcoder from "../../../common/Transcoder";
 
 const SearchField = React.createClass({
     getInitialState: function() {
@@ -30,9 +31,11 @@ const SearchField = React.createClass({
             underlineStyle: { borderColor: cyan100 },
         };
 
+        const hint = 'Type in ' + Transcoder.schemeLabel(this.props.settings.inputEncoding);
         return <TextField
             value={this.state.query}
             fullWidth={true}
+            hintText={hint}
             onChange={this.handleChange}
             onKeyDown={this.handleKeyDown}
             inputStyle={styles.input}

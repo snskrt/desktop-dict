@@ -11,14 +11,17 @@ const Input = React.createClass({
     },
 
     render: function() {
+        const inputs = [
+            Transcoder.HK,
+            Transcoder.SLP1,
+            Transcoder.ITRANS
+        ];
+
         return <SelectField
             floatingLabelText="Input"
             value={ this.state.value }
             onChange={this.handleChange}
-        >
-            <MenuItem value={Transcoder.HK} primaryText="Harvard-Kyoto"/>
-            <MenuItem value={Transcoder.SLP1} primaryText="SLP1"/>
-            <MenuItem value={Transcoder.ITRANS} primaryText="ITRANS"/>
+        >{inputs.map(code => <MenuItem value={code} primaryText={Transcoder.schemeLabel(code)}/>)}
         </SelectField>
     },
 
