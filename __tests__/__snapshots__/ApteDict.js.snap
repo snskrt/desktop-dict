@@ -3,7 +3,7 @@ Object {
   "encoding": "slp1",
   "results": Array [
     Object {
-      "data": "<H1><h><key1>Sap</key1><key2>Sap</key2></h><body>A technical term used by [Page1032-b+ 57] <lb/>Pāṇini for the conjugational sign <lb/><s>a</s> inserted between the root and <lb/>the terminations of the conjuga- <lb/>tional tenses in the first class of <lb/>roots.</body><tail><L>27602</L><pc>1032-a</pc></tail></H1>",
+      "data": "<H1><h><key1>Sap</key1><key2>Sap</key2></h><body>A technical term used by  [Page1032-b+ 57] <lb/>Pāṇini for the conjugational sign <lb/><s>a</s> inserted between the root and <lb/>the terminations of the conjuga- <lb/>tional tenses in the first class of <lb/>roots.</body><tail><L>27602</L><pc>1032-a</pc></tail></H1>",
       "key": "Sap",
       "lnum": 27602,
     },
@@ -23,7 +23,7 @@ Object {
 
 exports[`test finds a word by line number 1`] = `
 Object {
-  "data": "<H1><h n=\"alt\"><key1>atIsArin</key1><key2>ati(tI)sArin</key2></h><body ref=\"717\"></body><tail><L>717.01</L><pc>0036-a</pc></tail></H1>",
+  "data": "<H1><h><key1>atIsArin</key1><key2>atIsArin</key2></h><body><alt><s>atIsArin</s> is an alternate of <s>atisArin</s>.</alt>  <i>m.</i> [<s>atyaMtaM sArayati</s> <lb/><s>malaM</s>] The disease called <s>atisAra</s>. <i>--a.,</i> <lb/><s>--atisArakin</s> [<s>atisAro yasyAsti, ini</s> <lb/><s>kuk ca]</s> Affected by, afflicted with, <lb/>dysentery; <s>sAtisAro\'tisArakI</s> Ak.</body><tail><L>717.01</L><pc>0036-a</pc><hwtype n=\"alt\" ref=\"717\"/></tail></H1>",
   "key": "atIsArin",
   "lnum": 717.01,
 }

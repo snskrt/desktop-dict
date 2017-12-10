@@ -7,31 +7,31 @@ Object {
   },
   "results": Array [
     Object {
-      "data": "<H2><h><hc3>110</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex>m.</lex> <c>the_shoulder_,_shoulder-blade</c> </body><tail><pc>1,2</pc> <L>88</L></tail></H2>",
+      "data": "<H2><h><hc3>110</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex>m.</lex> the shoulder , shoulder-blade </body><tail><pc>1,2</pc> <L>88</L></tail></H2>",
       "greek": null,
       "key": "aMsa",
       "lnum": 88,
     },
     Object {
-      "data": "<H2A><h><hc3>100</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex type=\"inh\">m.</lex> <c>corner_of_a_quadrangle</c> </body><tail><pc>1,2</pc> <L>89</L></tail></H2A>",
+      "data": "<H2A><h><hc3>100</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex type=\"inh\">m.</lex> corner of a quadrangle </body><tail><pc>1,2</pc> <L>89</L></tail></H2A>",
       "greek": null,
       "key": "aMsa",
       "lnum": 89,
     },
     Object {
-      "data": "<H2A><h><hc3>100</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex type=\"inh\">m.</lex> <c>N._of_a_king</c> </body><tail><pc>1,2</pc> <L>90</L></tail></H2A>",
+      "data": "<H2A><h><hc3>100</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex type=\"inh\">m.</lex> <ab>N.</ab> of a king </body><tail><pc>1,2</pc> <L>90</L></tail></H2A>",
       "greek": null,
       "key": "aMsa",
       "lnum": 90,
     },
     Object {
-      "data": "<H2B><h><hc3>110</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex>m. <ab>du.</ab></lex> <c>the_two_shoulders_or_angles_of_an_altar</c> </body><tail><pc>1,2</pc> <L>91</L></tail></H2B>",
+      "data": "<H2B><h><hc3>110</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex>m. <ab>du.</ab></lex> the two shoulders or angles of an altar </body><tail><pc>1,2</pc> <L>91</L></tail></H2B>",
       "greek": null,
       "key": "aMsa",
       "lnum": 91,
     },
     Object {
-      "data": "<H2B><h><hc3>110</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex type=\"inh\">m.</lex> <c>a_share_</c> <p><c>for</c>~<s>aMSa</s></p> ; <p><b><c><ab>cf.</ab>~<c1><ab>Goth.</ab></c1>~<etym>amsa</etym>~~;~~<c1><ab>Gk.</ab>_<gk>1</gk>_,_<gk>2</gk>_;_<ab>Lat.</ab></c1>~<etym>humerus</etym>~,</c>~<etym>ansa</etym>.</b></p> </body><tail><MW>000054</MW> <pc>1,2</pc> <L>92</L></tail></H2B>",
+      "data": "<H2B><h><hc3>110</hc3><key1>aMsa</key1><hc1>2</hc1><key2>a/Msa</key2></h><body> <lex type=\"inh\">m.</lex> a share ( for <s>aMSa</s>) ; ( [ <ab>cf.</ab> <ab>Goth.</ab> <etym>amsa</etym> ; <ab>Gk.</ab> <gk>1</gk> , <gk>2</gk> ; <ab>Lat.</ab> <etym>humerus</etym> , <etym>ansa</etym>.] ) </body><tail><MW>000054</MW> <pc>1,2</pc> <L>92</L></tail></H2B>",
       "greek": "W)=MOS<e>W%29%3DMOS<e>ὦμος<gk>A)/SILLA<e>A%29%2FSILLA<e>ἄσιλλα",
       "key": "aMsa",
       "lnum": 92,
@@ -59,7 +59,7 @@ Object {
   },
   "results": Array [
     Object {
-      "data": "<H1><h><hc3>501</hc3><key1>ASad</key1><hc1>1</hc1><key2>A-<root>Sad</root></key2></h><body> <c><to/>to_go</c> <ls>Vop.</ls> <c>on</c> <ls>Dha1tup._xx_,_25.</ls> </body><tail><mul/> <MW>019470</MW> <pc>157,2</pc> <L>27426</L></tail></H1>",
+      "data": "<H1><h><hc3>501</hc3><key1>ASad</key1><hc1>1</hc1><key2>A-<root>Sad</root></key2></h><body> <to/>to go <ls>Vop.</ls> on <ls>Dha1tup. xx , 25.</ls> </body><tail><mul/> <MW>019470</MW> <pc>157,2</pc> <L>27426</L></tail></H1>",
       "greek": null,
       "key": "ASad",
       "lnum": 27426,
@@ -88,19 +88,19 @@ Object {
   },
   "results": Array [
     Object {
-      "data": "<H1><h><hc3>500</hc3><key1>as</key1><hc1>1</hc1><key2>as</key2><hom>1</hom></h><body> <vlex type=\"root\"></vlex> <vlex>cl.2 P.</vlex> <s>a/sti</s> <p><c>2.</c>~ <ab>sg.</ab>~<s>a/si</s>~,~<c>1.</c>~ <ab>sg.</ab>~<s>a/smi</s>~;~ <ab>pl.</ab>~<s>sma/si</s>~<c>or</c>~<s>sma/s</s>~,~<s>sTa/</s>~,~<s>sa/nti</s>~;~<c><p1><c1>rarely</c1>~ <vlex>A1.</vlex>~ <ab>e.g.</ab>~<c1>1.pl.</c1>~<s>smahe</s>~<ls>MBh._xiii_,_13</ls></p1></c>~;~ <ab>Subj.</ab>~<s>a/sat</s>~;~<c>Imper.</c>~<s>astu</s>~,~<c>2.</c>~ <ab>sg.</ab>~<s>eDi</s>~<c><p1><c1>fr.</c1>~<s>as-Di</s>~<ab>cf.</ab>~<ls>Pa1n2._6-4_,_119</ls></p1></c>~;~ <ab>Pot.</ab>~<s>syA/t</s>~;~ <ab>impf.</ab>~<s>A/sIt</s>~,~<c>rarely</c>~<s>As</s>~<c><b><c1>only_in</c1>~<ls>RV._x</ls>~;~<ab>cf.</ab>~<ls>Pa1n2._7-3_,_97</ls></b></c>~<pc>Page117,2</pc>~;~<ab>perf.</ab> <c>1._and_3.sg</c>~,~<s>A/sa</s>~,~<c>2.</c>~ <ab>sg.</ab>~<s>A/siTa</s>~,~<c>3.</c>~ <ab>pl.</ab>~<s>Asu/H</s>~;~<ab>p.</ab>~ <lex type=\"part\">m.</lex>~<s>sa/t</s>~ <lex type=\"part\">f.</lex>~<s>satI/</s></p> <c><to/>to_be_,_live_,_exist_,_be_present</c> <msc/> <c><to/>to_take_place_,_happen</c> <msc/> <c><to/>to_abide_,_dwell_,_stay</c> <msc/> <c><to/>to_belong_to</c> <p><ab>gen.</ab>~<c>or</c>~ <ab>dat.</ab></p> <msc/> <c><to/>to_fall_to_the_share_of._happen_to_any_one</c> <p><ab>gen.</ab></p> <msc/> <c><to/>to_be_equal_to</c> <p><ab>dat.</ab></p> <ls>S3Br._xiv</ls> <ls>Mn._xi_,_85</ls> <msc/> <c><to/>to_turn_out_,_tend_towards_any_result_,_prove_</c> <p><c>with</c>~ <ab>dat.</ab></p> <msc/> <c><to/>to_become</c> <ls>Br2A1rUp.</ls> <etc/> , <p><ab>cf.</ab>~<ls>Pa1n2._5-4_,_51-55</ls></p> <msc/> <c><to/>to_be</c> <p><ab>i.e.</ab>~<c>used_as_copula_,_but_not_only_with</c>~ <ab>adj.</ab>~,~<c>but_also_with</c>~ <ab>adv.</ab>~<b><ab>e.g.</ab>~<s>tUzRIm AsIt</s>~<ls>MBh._iii_,_4041</ls></b>,~<c>and_often_with</c>~ <ab>part.</ab>~,~<b><ab>e.g.</ab>~<ab>perf.</ab>~ <ab>Pass.</ab>~<ab>p.</ab>~<s>prasTitAH sma</s>~<ls>N.</ls>~;~ <ab>fut.</ab> <ab>p.p.</ab>~<s>hantavyo \'smi</s>~<ls>N.</ls>~;~ <ab>fut.p.</ab>~<c>especially_with</c>~ <ab>Pot.</ab>~,~<c>and_only_in</c>~<ls>S3Br._,_as</ls>~<s>ya/di dAsya/n-t-syA/t</s>~,~<quote>_if_he_should_intend_to_give_</quote></b>~;~<c>the</c>~ <ab>pf.</ab>~<s>Asa</s>~<c>helps_to_form_the_periphrastic_<ab>perf.</ab>_,_and</c>~<s>asmi</s>~<c><etc1/>_the</c>~ <ab>fut.</ab></p> ; <p><b><c><ab>cf.</ab>~<c1><ab>Gk.</ab>_<gk>1</gk>_<ab>Lat.</ab></c1>~<etym>es-t</etym>~<c1>;_<ab>Goth.</ab></c1></c>~<etym>is-t</etym>~<c>;_<ab>Lith.</ab></c>~<etym>es-ti</etym>.</b></p> </body><tail><pc>117,1</pc><mul/> <MW>014821</MW> <L>20353</L><mscverb/></tail></H1>",
+      "data": "<H1><h><hc3>500</hc3><key1>as</key1><hc1>1</hc1><key2>as</key2><hom>1</hom></h><body> <vlex type=\"root\"></vlex> <vlex>cl.2 P.</vlex> <s>a/sti</s> ( 2. <ab>sg.</ab> <s>a/si</s> , 1. <ab>sg.</ab> <s>a/smi</s> ; <ab>pl.</ab> <s>sma/si</s> or <s>sma/s</s> , <s>sTa/</s> , <s>sa/nti</s> ; ( rarely <vlex>A1.</vlex> <ab>e.g.</ab> 1.pl. <s>smahe</s> <ls>MBh. xiii , 13</ls>) ; <ab>Subj.</ab> <s>a/sat</s> ; Imper. <s>astu</s> , 2. <ab>sg.</ab> <s>eDi</s> ( fr. <s>as-Di</s> <ab>cf.</ab> <ls>Pa1n2. 6-4 , 119</ls>) ; <ab>Pot.</ab> <s>syA/t</s> ; <ab>impf.</ab> <s>A/sIt</s> , rarely <s>As</s> [ only in <ls>RV. x</ls> ; <ab>cf.</ab> <ls>Pa1n2. 7-3 , 97</ls>] <pc>Page117,2</pc> ; <ab>perf.</ab> 1. and 3.sg , <s>A/sa</s> , 2. <ab>sg.</ab> <s>A/siTa</s> , 3. <ab>pl.</ab> <s>Asu/H</s> ; <ab>p.</ab> <lex type=\"part\">m.</lex> <s>sa/t</s> <lex type=\"part\">f.</lex> <s>satI/</s>) <to/>to be , live , exist , be present <msc/> <to/>to take place , happen <msc/> <to/>to abide , dwell , stay <msc/> <to/>to belong to (<ab>gen.</ab> or <ab>dat.</ab>) <msc/> <to/>to fall to the share of. happen to any one (<ab>gen.</ab>) <msc/> <to/>to be equal to (<ab>dat.</ab>) <ls>S3Br. xiv</ls> <ls>Mn. xi , 85</ls> <msc/> <to/>to turn out , tend towards any result , prove ( with <ab>dat.</ab>) <msc/> <to/>to become <ls>Br2A1rUp.</ls> <etc/> , (<ab>cf.</ab> <ls>Pa1n2. 5-4 , 51-55</ls>) <msc/> <to/>to be (<ab>i.e.</ab> used as copula , but not only with <ab>adj.</ab> , but also with <ab>adv.</ab> [<ab>e.g.</ab> <s>tUzRIm AsIt</s> <ls>MBh. iii , 4041</ls>] , and often with <ab>part.</ab> , [<ab>e.g.</ab> <ab>perf.</ab> <ab>Pass.</ab> <ab>p.</ab> <s>prasTitAH sma</s> <ls>N.</ls> ; <ab>fut.</ab> <ab>p.p.</ab> <s>hantavyo \'smi</s> <ls>N.</ls> ; <ab>fut.</ab> <ab>p.</ab> especially with <ab>Pot.</ab> , and only in <ls>S3Br. , as</ls> <s>ya/di dAsya/n-t-syA/t</s> , <quote> if he should intend to give </quote>] ; the <ab>pf.</ab> <s>Asa</s> helps to form the periphrastic <ab>perf.</ab> , and <s>asmi</s> <etc1/> the <ab>fut.</ab>) ; ( [ <ab>cf.</ab> <ab>Gk.</ab> <gk>1</gk> <ab>Lat.</ab> <etym>es-t</etym> ; <ab>Goth.</ab> <etym>is-t</etym> ; <ab>Lith.</ab> <etym>es-ti</etym>.] ) </body><tail><pc>117,1</pc><mul/> <MW>014821</MW> <L>20353</L><mscverb/></tail></H1>",
       "greek": "E)S-TI/<e>E%29S-TI%2F<e>ἐσ-τί",
       "key": "as",
       "lnum": 20353,
     },
     Object {
-      "data": "<H1><h><hc3>500</hc3><key1>as</key1><hc1>1</hc1><key2>as</key2><hom>2</hom></h><body> <vlex type=\"root\"></vlex> <vlex>cl.4 P.</vlex> <s>a/syati</s> <p><ab>p.</ab>~<s>a/syat</s>~;~ <ab>impf.</ab>~<s>A/syat</s>~,~<c>A.V.</c>~<b><cf/>~<s>parA<srs/>s</s>~<c>and</c>~<s>vy-as</s></b>~;~ <ab>fut.</ab>~<ab>p.</ab>~<s>asizya/t</s>~;~ <ab>aor.</ab>~<s>AsTat</s>~<b><ls>Nir._ii_,_2</ls>~<ls>Pa1n2._7-4_,_17</ls>~;~<cf/>~<s>vy-as</s></b>~;~<ab>perf.</ab>~ <vlex>P.</vlex>~<s>Asa</s>~<b><cf/>~<s>parA<srs/>s</s></b>~ <vlex>A1.</vlex>~<s>Ase</s>~<b><cf/>~<s>vy-as</s></b>~;~<c><ab>Ved.</ab>_<ab>Inf.</ab></c>~<s>a/stave</s>~<ls>VS.</ls></p> <c><to/>to_throw_,_cast_,_shoot_at</c> <p><ab>loc.</ab>~ <ab>dat.</ab>~,~<c>or_gen</c></p> <ls>RV.</ls> <etc/> <msc/> <c><to/>to_drive_or_frighten_away</c> <ls>Nalo7d._iv_,_36</ls> <msc/> <see/> <c>also_1.</c> <s>asta/</s> <ab>s.v.</ab> </body><tail><mul/> <MW>014822</MW> <pc>117,2</pc> <L>20354</L><mscverb/></tail></H1>",
+      "data": "<H1><h><hc3>500</hc3><key1>as</key1><hc1>1</hc1><key2>as</key2><hom>2</hom></h><body> <vlex type=\"root\"></vlex> <vlex>cl.4 P.</vlex> <s>a/syati</s> (<ab>p.</ab> <s>a/syat</s> ; <ab>impf.</ab> <s>A/syat</s> , A.V. [<cf/> <s>parA<srs/>s</s> and <s>vy-as</s>] ; <ab>fut.</ab> <ab>p.</ab> <s>asizya/t</s> ; <ab>aor.</ab> <s>AsTat</s> [<ls>Nir. ii , 2</ls> <ls>Pa1n2. 7-4 , 17</ls> ; <cf/> <s>vy-as</s>] ; <ab>perf.</ab> <vlex>P.</vlex> <s>Asa</s> [<cf/> <s>parA<srs/>s</s>] <vlex>A1.</vlex> <s>Ase</s> [<cf/> <s>vy-as</s>] ; <ab>Ved.</ab> <ab>Inf.</ab> <s>a/stave</s> <ls>VS.</ls>) <to/>to throw , cast , shoot at (<ab>loc.</ab> <ab>dat.</ab> , or gen ) <ls>RV.</ls> <etc/> <msc/> <to/>to drive or frighten away <ls>Nalo7d. iv , 36</ls> <msc/> <see/> also 1. <s>asta/</s> <ab>s.v.</ab> </body><tail><mul/> <MW>014822</MW> <pc>117,2</pc> <L>20354</L><mscverb/></tail></H1>",
       "greek": null,
       "key": "as",
       "lnum": 20354,
     },
     Object {
-      "data": "<H1><h><hc3>000</hc3><key1>as</key1><hc1>1</hc1><key2>as</key2><hom>3</hom></h><body> <s>asati</s>,<s><sr1/>te</s> <c>=</c> <root/><s>az</s> <qv/> </body><tail><mul/> <MW>014824</MW> <pc>117,2</pc> <L>20358</L></tail></H1>",
+      "data": "<H1><h><hc3>000</hc3><key1>as</key1><hc1>1</hc1><key2>as</key2><hom>3</hom></h><body> <s>asati</s>,<s><sr1/>te</s> = <root/><s>az</s> <qv/> </body><tail><mul/> <MW>014824</MW> <pc>117,2</pc> <L>20358</L></tail></H1>",
       "greek": null,
       "key": "as",
       "lnum": 20358,
